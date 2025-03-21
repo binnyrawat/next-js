@@ -1,6 +1,6 @@
 const isProd = process.env.NODE_ENV === 'production';
 const nextConfig = {
-  reactStrictMode: true,
+  reactStrictMode: false,
   images: {
     unoptimized: true, // Disable default image optimization
   },
